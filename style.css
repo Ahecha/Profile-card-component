@@ -1,0 +1,16 @@
+* {
+    box-sizing: content-box;
+}
+
+img {
+    width: 100%;
+}
+
+.profile-img {
+    width: 50%;
+}
+
+
+.section-one {
+    width: 100%;
+}
