@@ -11,49 +11,55 @@
 
   <link rel="stylesheet" href="style.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
   <title>Profile card component</title>
 
 </head>
 <body>
-  <main class="container">
-    <section class="section-one">
-    <div class="row border border-secondary gx-0">
+  <main>
+    <div class="container">
+    <section class="section-one border rounded-top">
+    <div class="row gx-0">
       <div class="col">
-        <img class="bg-img" src="./images/bg-pattern-card.svg">
+        <img class="bg-img border rounded-top" src="./images/bg-pattern-card.svg">
       </div>
     </section>
-    <section>
-      <div class="row border border-primary gx-0">
-        <div class="col-6"><img class="profile-img" src="./images/image-victor.jpg"></div>
-        <div class="row row-cols-2">
-          <div class="col-6">
+    <section class="section-two border rounded-bottom">
+      <div class="row gx-0">
+        <div class="col-12 text-center gx-0"><img class="profile-img rounded-circle border border-5 border-white" src="./images/image-victor.jpg"></div>
+        <div class="row row-cols-2 profile-details">
+          <div class="col-7 text-end gx-2 name">
             Victor Crest
           </div>
-          <div class="col-4">
+          <div class="col-4 gx-1 age">
             26
           </div>
-          <div class="col text-center">
+          <div class="col-12 text-center gx-0 city">
             London
           </div>
-      
+          
         </div>
-        <div class="row row-cols-3">
-          <div class="col-3">
+        <hr>
+        <div class="row row-cols-3 stats-container">
+          <div class="col-4 gx-0 text-center stats-number">
             80K
           </div>
-          <div class="col-3">
+          <div class="col-4 gx-0 text-center stats-number">
             803K 
           </div>
-          <div class="col-3">
+          <div class="col-4 gx-0 text-center stats-number">
             1.4K
           </div>
-          <div class="col-3">
+          <div class="col-4 gx-0 text-center stats">
              Followers
           </div>
-          <div class="col-3">
+          <div class="col-4 gx-0 text-center stats">
             Likes
           </div>
-          <div class="col-3">
+          <div class="col-4 gx-0 text-center stats">
             Photos
           </div>
 
@@ -62,7 +68,7 @@
       </div>
     </section>
     </div>
-
+  </div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
   integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" 
